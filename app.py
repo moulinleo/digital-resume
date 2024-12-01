@@ -43,7 +43,7 @@ profile_pic = Image.open(profile_pic_path)
 
 # --- SIDEBAR ---
 st.sidebar.title("Menu")
-menu_selection = st.sidebar.radio("Projects", ["About Me"] + PROJECTS, label_visibility="collapsed")
+menu_selection = st.sidebar.radio("Projects", ["About Me"] + PROJECTS)
 
 # --- ABOUT ME SECTION ---
 if menu_selection == "About Me":
